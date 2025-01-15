@@ -1,8 +1,9 @@
 import Arrow from "../assets/arrow.png";
 import Circle from "../assets/Circle.png";
 import Vector from "../assets/Vector.png";
-import Person from "../assets/Person.png";
 import Ninja from "../assets/Ninja.png";
+import Add from "../assets/add.png";
+import Triangle from "../assets/Triangle.png";
 const Hero = () => {
   return (
     <div
@@ -41,8 +42,8 @@ const Hero = () => {
           <img src={Ninja} alt="" className="w-[450px] " />
         </div>
         <div className="flex justify-between px-10 lg:mt-12 xl:mt-0 min-[320px]:mt-12 pb-10">
-          <img src={Vector} alt="" />
-          <img src={Circle} alt="" />
+          <img src={Add} alt="" className="w-18 h-20" />
+          <img src={Triangle} alt="" className="w-20 h-20" />
         </div>
       </div>
     </div>
